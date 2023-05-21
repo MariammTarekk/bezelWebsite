@@ -1,0 +1,59 @@
+
+.home{
+    background-image: url('../Exam1/bezelimages/bg-image-28.jpg');
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover; 
+  }
+  .navv{
+    text-align: end;
+  }
+  .x{
+    text-align: center;
+  }
+  .layer{
+
+    background-color:rgba(0,0,0,0.35) ;
+  }
+  .font{
+    font-size: 5rem;
+    font-weight: 400;
+  }
+  .fontS{
+    font-size: rem;
+    font-weight: 10;
+  }
+  .select::selection{
+    color: white;
+    background-color: black;
+
+  }
+  .bgg{
+    background-color: lightgrey;
+  }
+  #services{
+    background-color: gray;
+  }
+  .price{
+    background-color:whitesmoke;
+  }
+  span{
+    vertical-align:text-top;
+  }
+  .topm{
+    vertical-align: text-top;
+    text-align: right;
+
+
+  }
+.blueLayer{
+    opacity: 0;
+    transition: 0.5s all;
+    display: none;
+    flex-direction: column;
+    transform:translateY(20%) ;
+}
+.TeamMember:hover .blueLayer{
+    opacity: 0.8;
+    transform: translateY(5%);
+}
